@@ -1,0 +1,29 @@
+
+{
+  "expo": {
+    "name": "iTextKita",
+    "slug": "iTextKita",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "orientation": "portrait",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+      
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sufyansiddiq.iTextKita"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

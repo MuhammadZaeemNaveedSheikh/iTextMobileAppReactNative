@@ -1,0 +1,296 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+    },
+    rowDiv: {
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    rowDiv2: {
+        width: "90%",
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: "space-between"
+    },
+    resetP: {
+        marginTop: 24,
+        fontFamily: "Poppins-Regular",
+        fontSize: 18,
+        color: "#696969",
+
+        lineHeight: 27,
+    },
+    nameC: {
+        fontFamily: "Poppins-Regular",
+        fontSize: 18,
+        color: "#000000",
+        fontWeight: "400",
+        lineHeight: 27,
+    },
+    account: {
+        fontFamily: "Poppins-Regular",
+        marginTop: 16,
+        color: "#000000",
+        fontSize: 11,
+        lineHeight: 16,
+    },
+
+    c: {
+        color: "#fff",
+        fontSize: 15,
+        fontFamily: "Poppins-Regular",
+        lineHeight: 18,
+    },
+    customerName: {
+        color: "#fff",
+        fontSize: 18,
+        paddingHorizontal: 10,
+        fontFamily: "Poppins-Regular",
+        lineHeight: 30,
+    },
+
+    btnDiv: {
+        marginTop: 20,
+        width: "72%",
+        justifyContent: "center",
+        flexWrap: 'wrap', flexDirection: "row",
+    },
+    customer:
+    {
+        marginTop: 20,
+        borderTopLeftRadius: 5,
+        borderBottomRightRadius: 5,
+        justifyContent: "center",
+        alignItems: "center",
+        width: "90%",
+        backgroundColor: "#084A5B",
+        height: 50,
+    },
+    nameList: {
+        elevation: 20,
+        backgroundColor: '#FFFFFF',
+        shadowColor: '#000000',
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "98%",
+        height: 50,
+
+    },
+    onlineM: {
+        fontFamily: "Poppins-Regular",
+        fontSize: 18,
+        color: "#fff",
+        lineHeight: 27,
+    },
+    onlineDiv: {
+        paddingHorizontal: 30,
+        marginTop: 10,
+        // borderTopLeftRadius: 5,
+        justifyContent: "center",
+        paddingHorizontal: 15,
+        width: "100%",
+        backgroundColor: "#084A5B",
+        height: 50,
+    },
+    tempDiv: {
+        justifyContent: "space-between",
+        backgroundColor: "#FCF3F3",
+        elevation: 4,
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: 15,
+        width: "100%",
+        height: 50,
+    },
+    tempDiv3: {
+        justifyContent: "space-between",
+        alignItems: "center",
+        // borderRadius: 10,
+        borderColor: "#e3dfde",
+        marginTop: 2,
+        borderBottomWidth: 0.5,
+        flexDirection: "row",
+        paddingHorizontal: 30,
+        backgroundColor: "#084A5B",
+        width: "100%",
+        height: 50,
+    },
+    tempDiv2:
+    {
+        margin: 2,
+        justifyContent: "space-between",
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: 15,
+        width: "100%",
+        height: 50,
+    },
+
+    mHistory: {
+        marginTop: 10,
+        // borderRadius: 12,
+        backgroundColor: "#084A5B",
+        borderColor: "#FFFFFF99",
+        borderWidth: 0.5,
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: 15,
+        width: "100%",
+        height: 52,
+    },
+    mHistory2: {
+        marginTop: 10,
+        // borderRadius: 12,
+        backgroundColor: "#084A5B",
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: 15,
+        width: "90%",
+        height: 52,
+    },
+    smsHistory: {
+        marginTop: 6,
+        backgroundColor: "#084A5B",
+        justifyContent: "space-between",
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: 15,
+        width: "90%",
+        height: 50,
+    },
+
+    tempName: {
+        fontFamily: "Poppins-Regular",
+        fontSize: 12,
+        color: "#084A5B",
+        lineHeight: 27,
+    },
+    nav: {
+        fontFamily: "Poppins-Medium",
+        fontSize: 16,
+        color: "#084A5B",
+        lineHeight: 27,
+        borderBottomColor: "#F6851F",
+        borderBottomWidth: 0.5,
+        paddingVertical: 7,
+    },
+    navDiv: {
+        borderBottomColor: "#F6851F",
+        borderBottomWidth: 0.5,
+        paddingVertical: 7,
+    },
+    hlabel: {
+        fontFamily: "Poppins-Regular",
+        fontSize: 14,
+        lineHeight: 21,
+    },
+    storedot: {
+        backgroundColor: "#000000",
+        borderRadius: 100,
+        marginRight: 10,
+        width: 8,
+        height: 8
+    },
+    storeList: {
+        height: 250,
+        width: "90%",
+        marginTop: 10,
+        borderColor: "#000000",
+        borderWidth: 0.5,
+    },
+    storeList2: {
+        width: "90%",
+        marginTop: 10,
+        backgroundColor: "#FCF3F3",
+    },
+    sendDiv: {
+        width: "90%",
+        justifyContent: "space-between", flexDirection: "row", alignItems: "center", paddingHorizontal: 10
+    },
+    sendName: {
+        width: 37,
+        height: 30,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#F6851F",
+        borderTopStartRadius: 3,
+        borderBottomEndRadius: 3,
+
+    }
+    ,
+    centeredView: {
+        flex: 1,
+        marginTop: 90,
+        alignItems: 'center',
+        width: "100%",
+
+    },
+    modalView: {
+        justifyContent: "center",
+        width: "95%",
+        backgroundColor: "#084A5B",
+        // height: 426,
+        margin: 20,
+        borderRadius: 10,
+        padding: 16,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+    },
+    backdrop: {
+        ...StyleSheet.absoluteFillObject,
+        backgroundColor: "#A7A7A780",
+        zIndex: 1,
+    },
+    newUser: {
+        justifyContent: "center",
+        width: "100%",
+        alignItems: "center",
+        borderRadius: 100,
+        backgroundColor: "#DEDEDE",
+        height: 50,
+    },
+    newUser2:
+    {
+        marginTop: 16,
+        display: "flex",
+        paddingHorizontal: 20,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        borderRadius: 5,
+        width: "100%",
+        backgroundColor: "#DEDEDE",
+        height: 50,
+    },
+    newUText: {
+        fontSize: 16,
+        color: "#084A5B",
+        fontFamily: "Poppins-Regular",
+        lineHeight: 24,
+    },
+    smsDiv: {
+        paddingVertical: 6,
+        borderRadius: 14,
+    },
+    customerList: {
+        elevation: 5,
+        backgroundColor: '#FFFFFF',
+        shadowColor: '#000000',
+        maxHeight: 105,
+        width: "90%",
+
+    }
+});

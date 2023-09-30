@@ -1,0 +1,27 @@
+import ItextKita from "../assets/iTextKita.svg"
+import Title from "../assets/title.svg"
+import Bg from "../assets/bg.svg"
+import Bgb from "../assets/bgb.svg"
+import Bgt from "../assets/bgt.svg"
+import Bg2 from "../assets/bg2.png"
+import Bg3 from "../assets/bg3.svg"
+import Man from "../assets/man.svg"
+import Want from "../assets/want.svg"
+import Want2 from "../assets/want2.svg"
+import Menus from "../assets/menu.svg"
+import Go from "../assets/go.svg"
+import Cross from "../assets/cross.svg"
+import Folder from "../assets/folder.svg"
+import Check from "../assets/check.svg"
+import User from "../assets/user.svg"
+import Key from "../assets/key.svg"
+import Phone from "../assets/phone.svg"
+import Send from "../assets/send.svg"
+import Thumb from "../assets/thumb.svg"
+import Down from "../assets/downarrow.svg"
+import Sms from "../assets/sms.svg"
+import A from "../assets/a.svg"
+
+export {
+    A, Send, Bgt, Thumb, Sms, Bgb, Want2, Bg3, Man, Down, Phone, ItextKita, Folder, Check, Title, User, Key, Cross, Menus, Go, Want, Bg, Bg2
+}
